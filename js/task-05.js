@@ -47,5 +47,4 @@ switch (country.toLowerCase()) {
     message = 'В вашей стране доставка не доступна';
 }
 
-alert(message)
-
+alert(message);

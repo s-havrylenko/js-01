@@ -18,11 +18,11 @@ let total = 0;
 // input = Number(prompt('Введите любое число!'));
 // console.log(input);
 // console.log(typeof input);
-// console.log(input === 0);
+// console.log(input === null);
    
-while (input !== 0) {
-  input = Number(prompt('Введите любое число!'));
-  total += input;
+while (input !== null) {
+  input = prompt('Введите любое число!');
+  total += Number(input);
   console.log(total);
 }
 
